@@ -13,7 +13,9 @@ body {
 
 	/* https://cssgradient.io/gradient-backgrounds/ */
 	background: #c6ffdd;
-	background: linear-gradient( to right, #f7797d, #fbd786, #c6ffdd );
+	/*background: linear-gradient( to right, #f7797d, #fbd786, #c6ffdd );*/
+	/*background: linear-gradient(to right, #348f50, #56b4d3);*/
+	background: linear-gradient(to right, #d3959b, #bfe6ba);
 
 	display: flex;
 	justify-content: center;
@@ -65,7 +67,7 @@ body {
 .quiz-list label {
 	cursor: pointer;
 	width: 100%;
-    display: block;
+	display: block;
 	padding: 1rem 0.5rem;
 }
 
