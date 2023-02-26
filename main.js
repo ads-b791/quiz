@@ -1,33 +1,118 @@
 const questions = [
+	//{
+	//	question: "Какой язык работает в браузере?",
+	//	answers: ["Java", "C", "Python", "JavaScript"],
+	//	correct: 4,
+	//},
+	//{
+	//	question: "Что означает CSS?",
+	//	answers: [
+	//		"Central Style Sheets",
+	//		"Cascading Style Sheets",
+	//		"Cascading Simple Sheets",
+	//		"Cars SUVs Sailboats",
+	//	],
+	//	correct: 2,
+	//},
+	//{
+	//	question: "Что означает HTML?",
+	//	answers: [
+	//		"Hypertext Markup Language",
+	//		"Hypertext Markdown Language",
+	//		"Hyperloop Machine Language",
+	//		"Helicopters Terminals Motorboats Lamborginis",
+	//	],
+	//	correct: 1,
+	//},
+	//{
+	//	question: "В каком году был создан JavaScript?",
+	//	answers: ["1996", "1995", "1994", "все ответы неверные"],
+	//	correct: 2,
+	//},
 	{
-		question: "Какой язык работает в браузере?",
-		answers: ["Java", "C", "Python", "JavaScript"],
-		correct: 4,
-	},
-	{
-		question: "Что означает CSS?",
-		answers: [
-			"Central Style Sheets",
-			"Cascading Style Sheets",
-			"Cascading Simple Sheets",
-			"Cars SUVs Sailboats",
-		],
+		question: "Какое стихийное бедствие измеряется по шкале Рихтера?",
+		answers: ["Торнадо", "Землетрясения", "Наводнения", "Ураган"],
 		correct: 2,
 	},
 	{
-		question: "Что означает HTML?",
+		question: "Какая планета находится ближе всего к Солнцу?",
+		answers: ["Земля", "Марс", "Меркурий", "Венера"],
+		correct: 3,
+	},
+	{
+		question: "Из какого вещества состоят ногти?",
+		answers: ["Серотонин", "Эпидермис", "Меланин", "Кератин"],
+		correct: 4,
+	},
+	{
+		question: "Что означает термин ДНК?",
 		answers: [
-			"Hypertext Markup Language",
-			"Hypertext Markdown Language",
-			"Hyperloop Machine Language",
-			"Helicopters Terminals Motorboats Lamborginis",
+			"Дезоксирибонуклеарная кислота",
+			"Дуорибонуклеиновая кислота",
+			"Дуоксирибонуклеиновая кислота",
+			"Дезоксирибонуклеиновая кислота",
+		],
+		correct: 4,
+	},
+	{
+		question: "Кто был первым человеком, увидевшим луны Юпитера?",
+		answers: [
+			"Галилео Галилей",
+			"Альберт Эйнштейн",
+			"Исаак Ньютон",
+			"Николай Коперник",
 		],
 		correct: 1,
 	},
 	{
-		question: "В каком году был создан JavaScript?",
-		answers: ["1996", "1995", "1994", "все ответы неверные"],
+		question: "Кто была первой женщиной, получившей Нобелевскую премию в 1903 году?",
+		answers: [
+			"Перл Бак",
+			"Розалинд Франклин",
+			"Мария Кюри",
+			"Джейн Аддамс",
+		],
+		correct: 3,
+	},
+	{
+		question: "“K” - это химический символ какого элемента?",
+		answers: [
+			"Хром",
+			"Титан",
+			"Водород",
+			"Калий",
+		],
+		correct: 4,
+	},
+	{
+		question: "Кто был первым человеком, побывавшим на Луне?",
+		answers: [
+			"Джеймс Б. Ирвин",
+			"Пит Конрад",
+			"Алан Шепард",
+			"Нил Армстронг",
+		],
+		correct: 4,
+	},
+	{
+		question: "Как называются животные, которые питаются только растениями?",
+		answers: [
+			"Плотоядные",
+			"Травоядные",
+			"Всеядные",
+			"Вегетарианец",
+		],
 		correct: 2,
+	},
+	{
+		question: "Что это за животное - косатка?",
+		answers: [
+			"Тюлень",
+			"Осьминог",
+			"Акула",
+			"Кит",
+		],
+		correct: 4,
 	},
 ];
 
